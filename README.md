@@ -4,5 +4,5 @@ A simple pie chart component using only React and D3
 
 ## Getting started
 
-  npm i
-  npm run dev
+    npm i
+    npm run dev
