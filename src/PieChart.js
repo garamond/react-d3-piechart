@@ -12,7 +12,7 @@ class PieChart extends Component {
   }
 
   render() {
-    let { size = 400, data, colors } = this.props
+    let { size = 400, data } = this.props
     let r = size / 2
     let arc = this.arc.outerRadius(r);
     let pie = this.pie(data)
