@@ -1,12 +1,11 @@
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
+
+import PieChart from './PieChart'
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {}
-  }
   render() {
-    return <h1>Hello, World!</h1>
+    let data = d3.range(1,10).map((v,i) => ({key: `item-${i}`, value: i*v}))
+    return <PieChart data={data} />
   }
 }
 

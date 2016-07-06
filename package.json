@@ -2,6 +2,7 @@
   "name": "react-lab",
   "version": "1.0.0",
   "dependencies": {
+    "d3": "^3.5.17",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   },
