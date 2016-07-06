@@ -6,3 +6,4 @@ A simple pie chart component using only React and D3
 
     npm i
     npm run dev
+    open http://localhost:8080
